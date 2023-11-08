@@ -1,0 +1,102 @@
+
+main {
+  position: relative;
+  color: #FFFFFF;
+  padding: 1rem 2rem 0;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar header img {
+  width: 12%;
+}
+
+nav.main-navigation a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav.main-navigation a:hover {
+  color: #40E0D0;
+  text-decoration: underline;
+  transition: color ease-in 800ms;
+}
+
+nav.main-navigation a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 94vh;
+  color: #40E0D0;
+}
+
+.main .content {
+  font-size: 25px;
+}
+
+.main .content span {
+  display: block;
+}
+
+span.web-developer {
+  font-size: 150px;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+span.web-developer:hover {
+  opacity: 0.2;
+  transition: opacity 100ms ease-out;
+  cursor: pointer;
+}
+
+span.web-developer span {
+  display: block;
+}
+
+.main .hire-me {
+  position: absolute;
+  bottom: 15%;
+}
+
+.hire-me {
+  text-decoration: none;
+  color: #40E0D0;
+  font-size: 30px;
+  border: 1px solid #40E0D0;
+  padding: 1rem;
+  border-radius: 20%;
+}
+
+.hire-me:hover {
+  color: #18AA5F;
+  opacity: 0.7;
+}
